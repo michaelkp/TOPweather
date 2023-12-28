@@ -1,0 +1,14 @@
+body, html {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+.weather-card {
+    outline: 1px solid red;
+}

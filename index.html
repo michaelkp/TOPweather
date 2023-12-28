@@ -10,7 +10,34 @@
   <body>
     <div class="container">
       <main class="main">
-        
+        <header class="header">
+          <input type="text" class="location-search" placeholder="Seach for your city..." autofocus>
+          <button type="button" class="location-search-btn">Submit</button>
+          <ul class="display-city-list hidden"></ul>
+        </header>
+        <section class="section">
+          <article class="current-weather">
+            <header class="current-weather-header"><span class="current-time-text"></span></header>
+            <section class="current-weather-section"></section>
+
+          </article>
+          <template class="weather-card-template">
+            <section class="weather-card">
+              <header class="card-header weather-time"></header>
+              <p class="date">Date: <span class="date-text card"></span></p>
+              <p class="temp-max">Max: <span class="max-text card"></span></p>
+              <p class="temp-min">Min: <span class="min-text card"></span></p>
+              <p class="sunrise">Sunrise: <span class="sunrise-text card"></span></p>
+              <p class="sunset">Sunset: <span class="sunset-text card"></span></p>
+              <p class="rain">Precipitation: <span class="rain-text card"></span></p>
+              <p class="wind-speed">Wind Speed: <span class="wind-speed-text card"></span></p>
+              <p class="wind-gusts">Wind Gusts: <span class="wind-gusts-text card"></span></p>
+            </section>
+
+          </template>
+
+        </section>
+        <section class="forecast-cards"></section>
       </main>
     </div>
   </body>
